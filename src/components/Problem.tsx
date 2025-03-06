@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Clock, ThumbsDown, BrainCircuit, Helping } from "lucide-react";
+import { Clock, ThumbsDown, BrainCircuit, HelpingHand } from "lucide-react";
 import AnimatedImage from "./ui/AnimatedImage";
 
 const Problem = () => {
@@ -24,7 +24,7 @@ const Problem = () => {
         "Qualified candidates are often overlooked due to keyword mismatch or resume format inconsistencies.",
     },
     {
-      icon: <Helping className="w-12 h-12 text-scout-olive" />,
+      icon: <HelpingHand className="w-12 h-12 text-scout-olive" />,
       title: "Poor Experience",
       description:
         "Slow feedback and processing times create negative candidate experiences, damaging your employer brand.",
